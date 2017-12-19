@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "with-js-lingui",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,9 +7,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "lingui-react": "1.4.1",
     "next": "latest",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-lingui-react": "1.0.13",
+    "lingui-cli": "1.4.2"
+  },
+  "lingui": {
+    "localeDir": "./locale",
+    "sourceLocale": "en"
   },
   "license": "ISC"
 }

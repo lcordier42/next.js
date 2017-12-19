@@ -1,0 +1,18 @@
+{
+  "Message Inbox": {
+    "translation": "",
+    "origin": [["components/Inbox.js", 13]]
+  },
+  "See all <0>unread messages </0>or <1>mark them</1> as read.": {
+    "translation": "",
+    "origin": [["components/Inbox.js", 17]]
+  },
+  "{messagesCount, plural, zero {There're no messages} one {There's # message in your inbox.} other {There're # messages in your inbox.}}": {
+    "translation": "",
+    "origin": [["components/Inbox.js", 24]]
+  },
+  "Last login on {lastLogin,date}.": {
+    "translation": "",
+    "origin": [["components/Inbox.js", 32]]
+  }
+}
