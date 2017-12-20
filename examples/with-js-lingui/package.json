@@ -17,8 +17,7 @@
     "lingui-cli": "1.4.2"
   },
   "lingui": {
-    "localeDir": "./locale",
-    "sourceLocale": "en"
+    "localeDir": "./locale"
   },
   "license": "ISC"
 }

@@ -1,6 +1,6 @@
 {
   "English anthem": {
-    "translation": "English anthem",
+    "translation": "Hymne anglais",
     "origin": [
       [
         "components/Inbox.js",
@@ -9,7 +9,7 @@
     ]
   },
   "God save our gracious Queen, Long live our noble Queen, God save the Queen ! Send her victorious, Happy and glorious, Long to reign over us, God save the Queen !": {
-    "translation": "God save our gracious Queen, Long live our noble Queen, God save the Queen ! Send her victorious, Happy and glorious, Long to reign over us, God save the Queen !",
+    "translation": "Que Dieu sauve notre gracieuse Reine, Vive notre noble Reine, Que Dieu sauve la Reine! Envoyez-la victorieuse, heureuse et glorieuse, Longue à régner sur nous, Dieu sauve la Reine!",
     "origin": [
       [
         "components/Inbox.js",
@@ -18,7 +18,7 @@
     ]
   },
   "French anthem": {
-    "translation": "French anthem",
+    "translation": "Hymne français",
     "origin": [
       [
         "pages/about.js",
@@ -27,7 +27,7 @@
     ]
   },
   "To arms, citizens, form your battalions, march, march! Let unclean blood drink our furrows!": {
-    "translation": "To arms, citizens, form your battalions, march, march! Let unclean blood drink our furrows!",
+    "translation": "Aux armes, citoyens, formez vos bataillons, marchez, marchez! Qu'un' sang impur abreuve nos sillons!",
     "origin": [
       [
         "pages/about.js",
@@ -36,7 +36,7 @@
     ]
   },
   "en": {
-    "translation": "TEST",
+    "translation": "TUTU",
     "origin": [
       [
         "components/Nav.js",

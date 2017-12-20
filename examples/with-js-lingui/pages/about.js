@@ -1,10 +1,8 @@
-import Link from "next/link";
+import Head from "next/head";
 import { I18nProvider } from "lingui-react";
 import { unpackCatalog } from "lingui-i18n";
 import { Trans, Plural, DateFormat } from "lingui-react";
-import Head from "next/head";
 
-import { Inbox } from "../components/Inbox";
 import { Nav } from "../components/Nav";
 import catalog_fr from "../locale/fr/messages.js";
 import catalog_en from "../locale/en/messages.js";
@@ -25,11 +23,21 @@ export default ({ url: { query: { language } } }) => {
       catalogs={{ [language]: unpackCatalog(catalog) }}
       development={dev}
     >
-      <Head>
-        <title>Homepage</title>
-      </Head>
-      <Nav />
-      <Inbox />
+      <div>
+        <Head>
+            <title>About</title>
+        </Head>
+        <Nav />
+        <h1>
+          <Trans>French anthem</Trans>
+        </h1>
+        <p>
+          <Trans>
+            To arms, citizens, form your battalions, march, march! Let unclean
+            blood drink our furrows!
+          </Trans>
+        </p>
+      </div>
     </I18nProvider>
   );
 };
