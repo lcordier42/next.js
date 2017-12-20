@@ -32,10 +32,6 @@
       [
         "pages/index.js",
         32
-      ],
-      [
-        "pages/welcome.js",
-        32
       ]
     ]
   }
