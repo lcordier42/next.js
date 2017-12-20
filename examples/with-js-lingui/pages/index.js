@@ -13,8 +13,6 @@ const catalogs = {
   fr: frCatalog
 };
 
-// watch lingui --extract --clean --verbose
-
 export default ({ url: { query } }) => {
   const language = query.language ? query.language : "en";
 
@@ -22,7 +20,8 @@ export default ({ url: { query } }) => {
     <I18nProvider
       language={language}
       catalogs={{
-        [language]: unpackCatalog(catalogs[language]) }}
+        [language]: unpackCatalog(catalogs[language])
+      }}
     >
       <Head>
         <title>Welcome</title>

@@ -21,7 +21,8 @@ export default ({ url: { query } }) => {
     <I18nProvider
       language={language}
       catalogs={{
-        [language]: unpackCatalog(catalogs[language]) }}
+        [language]: unpackCatalog(catalogs[language])
+      }}
     >
       <Head>
         <title>About</title>
@@ -33,4 +34,3 @@ export default ({ url: { query } }) => {
     </I18nProvider>
   );
 };
-

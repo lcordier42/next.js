@@ -6,9 +6,9 @@ export const MyLink = withRouter(
     href.query = { ...href.query, language };
 
     return (
-        <Link href={href} {...rest}>
-          {children}
-        </Link>
+      <Link href={href} {...rest}>
+        {children}
+      </Link>
     );
   }
 );

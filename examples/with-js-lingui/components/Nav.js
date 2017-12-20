@@ -8,16 +8,12 @@ export const Nav = () => (
     <ul>
       <li>
         <Trans>
-        <MyLink href={{ pathname: "/" }}>
-        Welcome
-        </MyLink>
+          <MyLink href={{ pathname: "/" }}>Welcome</MyLink>
         </Trans>
       </li>
       <li>
         <Trans>
-        <MyLink href={{ pathname: "/about" }}>
-        About
-        </MyLink>
+          <MyLink href={{ pathname: "/about" }}>About</MyLink>
         </Trans>
       </li>
     </ul>
