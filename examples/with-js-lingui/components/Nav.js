@@ -7,14 +7,18 @@ export const Nav = () => (
   <nav>
     <ul>
       <li>
+        <Trans>
         <MyLink href={{ pathname: "/" }}>
-        <a>Homepage</a>
+        Homepage
         </MyLink>
+        </Trans>
       </li>
       <li>
+        <Trans>
         <MyLink href={{ pathname: "/about" }}>
-        <a>About</a>
+        About
         </MyLink>
+        </Trans>
       </li>
     </ul>
     <ul>

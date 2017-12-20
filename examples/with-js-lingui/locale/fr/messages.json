@@ -1,4 +1,13 @@
 {
+  "<0>About</0>": {
+    "translation": "<0>A propos</0>",
+    "origin": [
+      [
+        "components/Nav.js",
+        17
+      ]
+    ]
+  },
   "English anthem": {
     "translation": "Hymne anglais",
     "origin": [
@@ -17,6 +26,15 @@
       ]
     ]
   },
+  "<0>Homepage</0>": {
+    "translation": "<0>Accueil</0>",
+    "origin": [
+      [
+        "components/Nav.js",
+        10
+      ]
+    ]
+  },
   "French anthem": {
     "translation": "Hymne français",
     "origin": [
@@ -27,22 +45,12 @@
     ]
   },
   "To arms, citizens, form your battalions, march, march! Let unclean blood drink our furrows!": {
-    "translation": "Aux armes, citoyens, formez vos bataillons, marchez, marchez! Qu'un' sang impur abreuve nos sillons!",
+    "translation": "Aux armes, citoyens, formez vos bataillons, marchez, marchez! Qu'un sang impur abreuve nos sillons!",
     "origin": [
       [
         "pages/about.js",
         35
       ]
     ]
-  },
-  "en": {
-    "translation": "TUTU",
-    "origin": [
-      [
-        "components/Nav.js",
-        23
-      ]
-    ],
-    "obsolete": true
   }
 }

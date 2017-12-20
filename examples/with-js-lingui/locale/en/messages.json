@@ -1,4 +1,13 @@
 {
+  "<0>About</0>": {
+    "translation": "<0>About</0>",
+    "origin": [
+      [
+        "components/Nav.js",
+        17
+      ]
+    ]
+  },
   "English anthem": {
     "translation": "English anthem",
     "origin": [
@@ -14,6 +23,15 @@
       [
         "components/Inbox.js",
         14
+      ]
+    ]
+  },
+  "<0>Homepage</0>": {
+    "translation": "<0>Homepage</0>",
+    "origin": [
+      [
+        "components/Nav.js",
+        10
       ]
     ]
   },
@@ -34,15 +52,5 @@
         35
       ]
     ]
-  },
-  "en": {
-    "translation": "TEST",
-    "origin": [
-      [
-        "components/Nav.js",
-        23
-      ]
-    ],
-    "obsolete": true
   }
 }
