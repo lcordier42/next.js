@@ -1,4 +1,13 @@
 {
+  "<0>Welcome</0>": {
+    "translation": "<0>Bienvenue</0>",
+    "origin": [
+      [
+        "components/Nav.js",
+        10
+      ]
+    ]
+  },
   "<0>About</0>": {
     "translation": "<0>A propos</0>",
     "origin": [
@@ -8,48 +17,25 @@
       ]
     ]
   },
-  "English anthem": {
-    "translation": "Hymne anglais",
-    "origin": [
-      [
-        "components/Inbox.js",
-        11
-      ]
-    ]
-  },
-  "God save our gracious Queen, Long live our noble Queen, God save the Queen ! Send her victorious, Happy and glorious, Long to reign over us, God save the Queen !": {
-    "translation": "Que Dieu sauve notre gracieuse Reine, Vive notre noble Reine, Que Dieu sauve la Reine! Envoyez-la victorieuse, heureuse et glorieuse, Longue à régner sur nous, Dieu sauve la Reine!",
-    "origin": [
-      [
-        "components/Inbox.js",
-        14
-      ]
-    ]
-  },
-  "<0>Homepage</0>": {
-    "translation": "<0>Accueil</0>",
-    "origin": [
-      [
-        "components/Nav.js",
-        10
-      ]
-    ]
-  },
-  "French anthem": {
-    "translation": "Hymne français",
+  "About": {
+    "translation": "A propos",
     "origin": [
       [
         "pages/about.js",
+        31
+      ]
+    ]
+  },
+  "Welcome": {
+    "translation": "Bienvenue",
+    "origin": [
+      [
+        "pages/index.js",
         32
-      ]
-    ]
-  },
-  "To arms, citizens, form your battalions, march, march! Let unclean blood drink our furrows!": {
-    "translation": "Aux armes, citoyens, formez vos bataillons, marchez, marchez! Qu'un sang impur abreuve nos sillons!",
-    "origin": [
+      ],
       [
-        "pages/about.js",
-        35
+        "pages/welcome.js",
+        32
       ]
     ]
   }

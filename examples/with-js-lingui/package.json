@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "lingui-react": "1.4.1",
+    "n": "2.1.8",
     "next": "latest",
     "react": "16.2.0",
     "react-dom": "16.2.0"
@@ -17,7 +18,11 @@
     "lingui-cli": "1.4.2"
   },
   "lingui": {
-    "localeDir": "./locale"
+    "localeDir": "./locale",
+    "srcPathIgnorePatterns": [
+      "/node_modules/",
+      "/.next/"
+    ]
   },
   "license": "ISC"
 }

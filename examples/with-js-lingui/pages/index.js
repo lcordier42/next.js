@@ -1,35 +1,36 @@
 import Link from "next/link";
+import Head from "next/head";
 import { I18nProvider } from "lingui-react";
 import { unpackCatalog } from "lingui-i18n";
 import { Trans, Plural, DateFormat } from "lingui-react";
-import Head from "next/head";
 
-import { Inbox } from "../components/Inbox";
 import { Nav } from "../components/Nav";
-import catalog_fr from "../locale/fr/messages.js";
-import catalog_en from "../locale/en/messages.js";
+import frCatalog from "../locale/fr/messages.js";
+import enCatalog from "../locale/en/messages.js";
 
-const dev =
-  process.env.NODE_ENV !== "production"
-    ? require("lingui-i18n/dev")
-    : undefined;
+const catalogs = {
+  en: enCatalog,
+  fr: frCatalog
+};
 
-export default ({ url: { query: { language } } }) => {
-  if (!language) language = "en";
-  if (language == "en") var catalog = catalog_en;
-  else var catalog = catalog_fr;
+// watch lingui --extract --clean --verbose
+
+export default ({ url: { query } }) => {
+  const language = query.language ? query.language : "en";
 
   return (
     <I18nProvider
       language={language}
-      catalogs={{ [language]: unpackCatalog(catalog) }}
-      development={dev}
+      catalogs={{
+        [language]: unpackCatalog(catalogs[language]) }}
     >
       <Head>
-        <title>Homepage</title>
+        <title>Welcome</title>
       </Head>
       <Nav />
-      <Inbox />
+      <h1>
+        <Trans>Welcome</Trans>
+      </h1>
     </I18nProvider>
   );
 };

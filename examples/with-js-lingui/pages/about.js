@@ -4,40 +4,33 @@ import { unpackCatalog } from "lingui-i18n";
 import { Trans, Plural, DateFormat } from "lingui-react";
 
 import { Nav } from "../components/Nav";
-import catalog_fr from "../locale/fr/messages.js";
-import catalog_en from "../locale/en/messages.js";
+import frCatalog from "../locale/fr/messages.js";
+import enCatalog from "../locale/en/messages.js";
 
-const dev =
-  process.env.NODE_ENV !== "production"
-    ? require("lingui-i18n/dev")
-    : undefined;
+const catalogs = {
+  en: enCatalog,
+  fr: frCatalog
+};
 
-export default ({ url: { query: { language } } }) => {
-  if (!language) language = "en";
-  if (language == "en") var catalog = catalog_en;
-  else var catalog = catalog_fr;
+export default ({ url: { query } }) => {
+  const language = query.language ? query.language : "en";
 
+  console.log(language);
+  console.log(catalogs[language]);
   return (
     <I18nProvider
       language={language}
-      catalogs={{ [language]: unpackCatalog(catalog) }}
-      development={dev}
+      catalogs={{
+        [language]: unpackCatalog(catalogs[language]) }}
     >
-      <div>
-        <Head>
-            <title>About</title>
-        </Head>
-        <Nav />
-        <h1>
-          <Trans>French anthem</Trans>
-        </h1>
-        <p>
-          <Trans>
-            To arms, citizens, form your battalions, march, march! Let unclean
-            blood drink our furrows!
-          </Trans>
-        </p>
-      </div>
+      <Head>
+        <title>About</title>
+      </Head>
+      <Nav />
+      <h1>
+        <Trans>About</Trans>
+      </h1>
     </I18nProvider>
   );
 };
+

@@ -9,7 +9,7 @@ export const Nav = () => (
       <li>
         <Trans>
         <MyLink href={{ pathname: "/" }}>
-        Homepage
+        Welcome
         </MyLink>
         </Trans>
       </li>

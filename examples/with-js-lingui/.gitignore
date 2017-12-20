@@ -1,0 +1,6 @@
+locale/*/*.js
+locale/_*
+.envrc
+node_modules/
+.next
+package-lock.json
