@@ -1,0 +1,32 @@
+{
+    "name": "with-ts-lingui",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"next\"",
+        "prebuild": "tsc",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "babel-cli": "6.26.0",
+        "lingui-react": "latest",
+        "n": "2.1.8",
+        "next": "latest",
+        "react": "16.2.0",
+        "react-dom": "16.2.0"
+    },
+    "devDependencies": {
+        "@types/next": "^2.4.5",
+        "@types/react": "^16.0.22",
+        "babel-plugin-lingui-extract-messages": "^1.1.10",
+        "babel-preset-lingui-react": "latest",
+        "concurrently": "^3.5.0",
+        "lingui-cli": "latest",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1"
+    },
+    "lingui": {
+        "localeDir": "./locale",
+        "srcPathIgnorePatterns": ["/node_modules/", "/.next/"]
+    }
+}
