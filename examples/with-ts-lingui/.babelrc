@@ -1,11 +1,4 @@
 {
-    "env": {
-        "node": {
-            "plugins": [["module-resolver", { "root": ["./"] }]],
-            "presets": [["env", { "targets": { "node": "current" } }], "react"]
-        },
-        "lingui": {
-            "presets": ["next/babel", "lingui-react"]
-        }
-    }
+    "plugins": ["lingui-transform-js"],
+    "presets": ["env", "react", "lingui-react"]
 }
