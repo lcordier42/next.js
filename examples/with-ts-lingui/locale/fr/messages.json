@@ -1,10 +1,19 @@
 {
+  "About": {
+    "translation": "A propos",
+    "origin": [
+      [
+        "pages/about.js",
+        11
+      ]
+    ]
+  },
   "Hello World.": {
     "translation": "Bonjour le monde.",
     "origin": [
       [
         "pages/index.js",
-        12
+        14
       ]
     ]
   }
