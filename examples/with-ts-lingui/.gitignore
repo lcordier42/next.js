@@ -1,3 +1,2 @@
-pages/*.js
+*.js
 locale/_build
-locale/fr/messages.js

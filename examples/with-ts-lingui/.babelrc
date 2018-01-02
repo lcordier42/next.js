@@ -1,4 +1,4 @@
 {
     "plugins": ["lingui-transform-js"],
-    "presets": ["env", "react", "lingui-react"]
+    "presets": ["next/babel", "lingui-react"]
 }

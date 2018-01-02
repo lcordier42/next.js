@@ -10,25 +10,24 @@
     "dependencies": {
         "babel-cli": "6.26.0",
         "i18n": "0.8.3",
-        "lingui-react": "latest",
+        "lingui-react": "1.4.1",
         "n": "2.1.8",
-        "next": "latest",
+        "next": "4.2.1",
         "react": "16.2.0",
         "react-dom": "16.2.0"
     },
     "devDependencies": {
-        "@types/next": "^2.4.5",
-        "@types/react": "^16.0.22",
+        "@types/next": "2.4.5",
+        "@types/react": "16.0.22",
         "babel-plugin-lingui-extract-messages": "1.1.10",
         "babel-plugin-lingui-transform-js": "1.0.6",
-        "babel-preset-lingui-react": "latest",
-        "concurrently": "^3.5.0",
-        "lingui-cli": "latest",
-        "tslint": "^5.8.0",
-        "typescript": "^2.6.1"
+        "babel-preset-lingui-react": "1.0.13",
+        "concurrently": "3.5.0",
+        "lingui-cli": "1.4.4",
+        "tslint": "5.8.0",
+        "typescript": "2.6.1"
     },
     "lingui": {
-        "localeDir": "./locale",
         "srcPathIgnorePatterns": [
             "/node_modules/",
             "/.next/"

@@ -1,6 +1,6 @@
 {
   "About": {
-    "translation": "À propos",
+    "translation": "About",
     "origin": [
       [
         "pages/about.js",
@@ -9,7 +9,7 @@
     ]
   },
   "Welcome": {
-    "translation": "Bienvenue",
+    "translation": "Welcome",
     "origin": [
       [
         "pages/index.js",
@@ -30,7 +30,7 @@
     ]
   },
   "You": {
-    "translation": "toi",
+    "translation": "",
     "origin": [
       [
         "pages/index.js",
